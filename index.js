@@ -1,4 +1,4 @@
-console.log('hello world');
+console.log('hello world 2');
 require('dotenv').config()//***your magic line
 const Sequelize = require('sequelize');
 
@@ -59,8 +59,8 @@ app.get('/', async function (req, res) {
  
 });
 
-app.listen(3001, function () {
-  console.log('Example app listening on port 3001!');
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
 });
 
 
