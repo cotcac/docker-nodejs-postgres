@@ -21,3 +21,14 @@ just put your password
 ```
 psql postgres://postgres:pass@localhost:35432/postgres
 ```
+
+# To run migration inside docker-compose. Which will run a bash instance inside the node-app container.
+
+```
+docker-compose run node-app bash
+```
+Follow by
+
+```
+npm run migrate up
+```

@@ -13,8 +13,6 @@ services:
       - "3000:3000"
     depends_on:
       - postgres
-    environment:  
-      DATABASE_URL: postgres://postgres:pass@postgres:5432/postgres
     volumes:
       - ./:/usr/src/app  
     command: nodemon .    
