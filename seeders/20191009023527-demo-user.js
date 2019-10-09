@@ -13,6 +13,7 @@ module.exports = {
       }], {});
     */
     return queryInterface.bulkInsert('Users', [{
+      id:"2c78e030-ea60-11e9-ba51-8d39edbedf04",
       firstName: 'John2',
       lastName: 'Doe2',
       email: 'demo@demo.com2',
