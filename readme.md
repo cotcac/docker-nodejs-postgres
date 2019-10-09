@@ -1,7 +1,13 @@
 # nodejs postgres sequelize docker
 
+# Quick start
+
 ```
+npm i
 docker-compose up
+docker-compose run node-app bash
+npm run migration
+npm run seed
 ```
 
 # dont try to custom posgres user and db.
@@ -26,9 +32,4 @@ psql postgres://postgres:pass@localhost:35432/postgres
 
 ```
 docker-compose run node-app bash
-```
-Follow by
-
-```
-npm run migrate up
 ```
