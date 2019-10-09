@@ -15,3 +15,9 @@ just put your password
     environment:
       POSTGRES_PASSWORD: pass
 ```
+
+# Connect directly to Postgres
+
+```
+psql postgres://postgres:pass@localhost:35432/postgres
+```
